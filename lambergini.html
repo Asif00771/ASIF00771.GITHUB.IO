@@ -1,0 +1,85 @@
+<!Doctype html>
+
+<html>
+<title> LAMBERGINI </title>
+<head> <link rel="stylesheet" type="text/css" href="lamo.css"> </head>
+<body bgcolor="#ee760c">
+ 
+
+<center><font color="black" face="Bernard MT Condensed"><h1>LAMBERGINI</h1></font></center>
+<div id="lamo">
+<div class="w3-content w3-display-container">
+  <img class="mySlides" src="Lambergini Pictures\fullview.jpg" width="700" height="500">
+  <img class="mySlides" src="Lambergini Pictures\lambergini.jpg" width="700" height="500">
+  <img class="mySlides" src="Lambergini Pictures\steeringview.jpg" width="700" height="500">
+  <img class="mySlides" src="Lambergini Pictures\lamo1.jpg" width="700" height="500">
+  <img class="mySlides" src="Lambergini Pictures\lamo2.jpg" width="700" height="500">
+  <img class="mySlides" src="Lambergini Pictures\lamo3.jpg" width="700" height="500">
+  <img class="mySlides" src="Lambergini Pictures\tyreview.jpg" width="600" height="500">
+<font size="6">
+  <a class="w3-btn-floating w3-display-left" onclick="plusDivs(-1)">&#10094;</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ 
+  <a class="w3-btn-floating w3-display-right" onclick="plusDivs(1)">&#10095;</a></font>
+</div></div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+
+<div id="info">
+				<div id="info-inner">
+				
+					<div class="column">
+						<h2><span>LAMBERGINI</span></h2>
+						<p>Automobili Lamborghini S.p.A. (Italian: [lamborˈɡiːni]) is an Italian brand and
+						manufacturer of luxury sports cars and SUVs based in Sant'Agata Bolognese,
+						Italy.
+						The company is owned by the Volkswagen Group through its subsidiary Audi.</p>
+					</div>	
+					<div class="column">
+						<h2><span>MAX HORSE POWER</span></h2>
+						<p>Motori Marini Lamborghini produces a large V12 marine engine block
+						for use in World Offshore Series Class 1 powerboats. A Lamborghini branded marine engine displaces approximately 8,171 cc (499 cu in) 
+						and outputs approximately 940 hp (700 kW).</p>
+					</div>
+					<div class="column">
+						<h2><span>OVERVIEW</span></h2>
+						<p>Manufacturer Company is Automobili Lamborghini S.p.A.
+					   Production is active from 2014 and present.Assembly is done in Sant'Agata Bolognese, Italy
+					   Designer is Filippo Perini.</p>
+					</div>
+                    
+					</div> </div>
+					
+				      
+						
+                          					
+
+
+
+
+ </body>
+
+</html>

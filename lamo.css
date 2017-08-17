@@ -1,0 +1,22 @@
+#lamo
+{
+	
+margin:0 auto;  0; width:970px;
+
+color:maroon; font-weight:bold; text-decoration:none;}
+
+}
+#info
+{
+	background:#DAE9BC;color:green;
+}
+			
+			
+#info-inner
+ {
+	 margin:0 auto; width:922px; padding:24px; color:black;
+	 }
+#info .column 
+{ 
+margin:0; text-align:justify; float:left;width:250px;padding:0 24px;
+}

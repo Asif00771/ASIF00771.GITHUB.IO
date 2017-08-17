@@ -1,0 +1,33 @@
+ul {
+    list-style-type: none;
+    margin: 2px;
+    padding: 2px;
+    overflow: hidden;
+}
+
+li {
+    float: LEFT;
+	
+}
+
+li a {
+    display: inline-block;
+    padding: 8px;
+    background-color: #dddddd;
+}
+#main
+{
+width: 900px;
+height: 500px;
+background:  #ffffcc ;
+margin: 25px auto;
+border: solid 4px #553525;
+}
+BODY
+{
+	background-color: silver;
+}
+h
+{
+	display: inline-block;
+}
